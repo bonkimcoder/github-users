@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Users</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="myStyles.css" />
+  </head>
+  <body
+    class="font-roboto bg-green-800 text-white flex flex-col items-center mt-10 h-screen overflow-hidden"
+  >
+    <h1 class="text-3xl mb-10 uppercase">Search Your Favorite Github User</h1>
+    <form class="w-full max-w-screen-sm" id="form">
+      <input
+        type="text"
+        id="search"
+        class="w-full block bg-green-500 border-none rounded-lg text-white p-4 mb-8 font-sans text-base shadow placeholder-white focus:outline-none"
+        placeholder="Search by username"
+      />
+    </form>
+    <main id="main"></main>
+    <script src="myScript.js"></script>
+  </body>
+</html>
